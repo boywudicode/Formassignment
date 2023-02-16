@@ -1,0 +1,63 @@
+/*reset css*/
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin:  0%;
+ }
+ form{ 
+    border: 1px solid black;
+    width: 300px;
+    padding: 3px 25px 30px;
+    margin: 40px auto;
+    border-radius: 30px;
+    background-color: whitesmoke;
+ }
+
+ input{
+    
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-style: solid;
+    padding: 10px 5px;
+    width: 250px;
+    
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0 40px;
+    font-size: 30px;
+
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+ }
+ 
+ .para{
+    text-align: center;
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px ;
+    /* text-align: center; */
+    /* border: 1px solid; */
+    margin: 20px;
+    padding: 5px 0 10px;
+    }
+
+    body{
+        background-image: url('../e/image50.jpg');
+    }
