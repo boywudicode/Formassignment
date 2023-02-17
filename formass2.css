@@ -10,7 +10,9 @@
     padding: 3px 25px 30px;
     margin: 40px auto;
     border-radius: 30px;
-    background-color: whitesmoke;
+    background-color: transparent;
+    box-shadow: 3px 3px 4px 3px;
+
  }
 
  input{
@@ -30,7 +32,7 @@ h2{
     font-size: 30px;
 
 }
-
+/* 
 button {
     width: 250px;
     height: 40px;
@@ -42,7 +44,7 @@ button {
     cursor: pointer;
     color: white;
     margin-top: 20px;
- }
+ } */
  
  .para{
     text-align: center;
@@ -50,14 +52,52 @@ button {
 }
 
 a{
-    text-decoration: none;
+    /* text-decoration: none; */
     font-size: 20px ;
     /* text-align: center; */
     /* border: 1px solid; */
-    margin: 20px;
+    /* margin: 20px; */
     padding: 5px 0 10px;
+   }
+    body{
+        background-image: url(image20.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    .a-hd {
+        background-color: blue;
+        color: white;
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 10px;
+        margin-right: 20px;
+        text-decoration: none;
+        margin-top: 10px;
+        
+    }
+    .a-he {
+        background-color: rgb(235, 52, 86);
+        color: white;
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 10px;
+        text-decoration: none;
+        margin-top: 10px;
     }
 
-    body{
-        background-image: url('../e/image50.jpg');
+    .log{
+        width: 250px;
+        height: 40px;
+        background-color: blue;
+        border: none;
+        display: block;
+        margin: auto;
+        font-size: 18px;
+        cursor: pointer;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .pag{
+        text-decoration: none;
     }
